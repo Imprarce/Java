@@ -1,4 +1,5 @@
 package ru.mirea.lab1;
+import java.util.Scanner;
 
 public class Book {
     private String author;
@@ -18,7 +19,17 @@ public class Book {
         author = a;
         name = "";
     }
-    
+
+    public String getAuthor()
+    {
+        return author;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+
     public void setAuthor(String author) {
         this.author = author;
     }
